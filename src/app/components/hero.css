@@ -1,0 +1,43 @@
+/* app/components/Hero.css */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 6rem 2rem; /* Espaçamento generoso para dar "respiro" */
+  min-height: 80vh; /* Garante que a seção ocupe uma boa parte da tela */
+}
+
+.hero-text {
+  flex: 1; /* O texto ocupa o espaço disponível */
+  max-width: 600px; /* Limita a largura do texto para melhor leitura */
+}
+
+.hero-text h1 {
+  font-size: 3rem; /* Tamanho grande e impactante */
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-cta-button {
+  background-color: var(--azul-aco); /* Nossa cor de Ação! */
+  color: var(--branco-casca-de-ovo); /* Nossa cor de Fundo, para contraste */
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 8px; /* Cantos arredondados */
+  transition: transform 0.2s ease-in-out; /* Efeito sutil */
+}
+
+.hero-cta-button:hover {
+  transform: scale(1.05);
+}
+
+.hero-image {
+  flex: 1;
+  /* Vamos estilizar isso quando tiver a foto */
+}
