@@ -1,0 +1,39 @@
+/* app/components/AboutSection.css */
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 6rem 2rem;
+  background-color: #ffffff; /* Fundo branco para contrastar com a seção de projetos */
+}
+
+.about-image-container {
+  flex-basis: 40%; /* A imagem ocupa 40% da largura */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-placeholder {
+  width: 300px;
+  height: 300px;
+  background-color: #e0e0e0;
+  border-radius: 50%; /* Dica de Estilo: Deixa a imagem redonda! */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-text-container {
+  flex-basis: 60%; /* O texto ocupa 60% */
+}
+
+.about-text-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--verde-oliva-sutil); /* Usando nossa cor de identidade! */
+}
+
+.about-text-container p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}

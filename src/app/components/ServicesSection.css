@@ -1,0 +1,39 @@
+/* app/components/ServicesSection.css */
+.services-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: var(--branco-casca-de-ovo); /* Voltando para a cor de fundo principal */
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.service-icon {
+  font-size: 3rem; /* Tamanho do ícone */
+  color: var(--verde-oliva-sutil); /* Nossa cor de identidade! */
+  margin-bottom: 1.5rem;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  line-height: 1.6;
+}
