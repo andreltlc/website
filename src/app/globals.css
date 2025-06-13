@@ -1,26 +1,12 @@
-@import "tailwindcss";
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --branco-casca-de-ovo: #F4F4F0;
+  --grafite-escuro: #343A40;
+  --verde-oliva-sutil: #6B7D6A;
+  --azul-aco: #4A6981;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--branco-casca-de-ovo); /* Nossa cor de fundo! */
+  color: var(--grafite-escuro); /* Nossa cor de texto padrão! */
+  font-family: 'Montserrat', sans-serif; /* Nossa fonte! */
 }
