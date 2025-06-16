@@ -9,3 +9,12 @@
     gap: 1rem;
     list-style: none;
 }
+.main-header a{
+    text-decoration: none;
+    color: var(--grafite-escuro);
+    
+    font-weight: 600;
+}
+.main-header a:hover{
+    color: var(--verde-oliva-sutil);
+}
