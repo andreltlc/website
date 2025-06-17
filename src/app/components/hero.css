@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
-  padding: 6rem 2rem; /* Espaçamento generoso para dar "respiro" */
+  gap: 10rem;
+  padding: 10px 3rem; /* Espaçamento generoso para dar "respiro" */
   min-height: 80vh; /* Garante que a seção ocupe uma boa parte da tela */
 }
 

@@ -1,5 +1,6 @@
 // app/components/Hero.jsx
 import './hero.css';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -14,7 +15,14 @@ export default function Hero() {
         </a>
       </div>
       <div className="hero-image">
-        {/* Espaço para sua foto profissional no futuro */}
+        <Image 
+        src="/hero2.png" // O caminho começa com "/"
+        alt="Descrição da imagem para acessibilidade" // SEMPRE adicione um 'alt'
+        width={650}  // Coloque a largura original da imagem
+        height={350} // Coloque a altura original da imagem
+        // Você pode adicionar um className para estilizar com CSS
+        className="hero-image"
+      />
       </div>
     </section>
   );
